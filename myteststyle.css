@@ -1,0 +1,91 @@
+/* this will change the font of all the body text */
+
+body {
+    font-family: Arial;
+}
+
+
+/* this will change the backgroundcolor of the text on mousehover the row text */
+
+.married:hover {
+    background-color: #ffef46;
+}
+
+.notmarried {
+    background-color: #B3E8FF;
+    font-size: 12px;
+    color: #101010;
+}
+
+.married {
+    background-color: #E2EDF9;
+    font-size: 12px;
+    color: #101010;
+}
+
+.notmarried:hover {
+    background-color: #f8f8f8;
+}
+
+.tblListForm {
+    border-top: 2px #999999 solid;
+}
+
+a {
+    text-decoration: none;
+    color: #5e8fc7;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    text-decoration: none;
+    color: #5e8fc7;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+label {
+    font-family: Arial;
+    font-size: 14px;
+    color: #999999;
+}
+
+.tblSaveForm {
+    border-top: 2px #999999 solid;
+    background-color: #f8f8f8;
+}
+
+.tableheader {
+    background-color: #5e8fc7;
+}
+
+.tablerow {
+    background-color: #A7D6F1;
+    color: white;
+}
+
+button {
+    background-color: #5e8fc7;
+    padding: 5px;
+    border-color: #000;
+    border-radius: 4px;
+    color: white;
+}
+
+.message {
+    color: #FF0000;
+    text-align: center;
+    width: 100%;
+}
+
+.txtField {
+    padding: 5px;
+    border: #5e8fc7 1px solid;
+    border-radius: 4px;
+}
